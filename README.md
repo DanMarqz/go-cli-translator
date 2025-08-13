@@ -1,15 +1,24 @@
-Compile with:
+# go-cli-translator
+
+## Compile with:
 
 ```bash
 go build -o {NAME_OUTPUT}
+```
 
-# Move to /usr/local/bin
+## Move to /usr/local/bin:
+```bash
 sudo mv {NAME_OUTPUT} /usr/local/bin
+```
 
-# Create folder for config file:
+## Create folder for config file:
+```bash
 mkdir -p ~/.go-translator-cli
+```
 
-# Example use:
+## Example use:
+
+```bash
 {NAME_OUTPUT} --from en --to es "Hello world" 
 # Output: 
 Idiomas por defecto actualizados.
@@ -34,5 +43,4 @@ Traduciendo de 'es' a 'fr'...
 -----------
 Bonjour
 -----------
-
 ```
