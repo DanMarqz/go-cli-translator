@@ -4,7 +4,6 @@ package cmd
 import (
 	"fmt"
 	"os"
-	"strings"
 
 	"github.com/bregydoc/gtranslate"
 	"github.com/spf13/cobra"
